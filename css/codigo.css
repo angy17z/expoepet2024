@@ -1,0 +1,28 @@
+header h1 {
+    color: rgb(0, 0, 0);
+}
+
+section {
+    background-color: #000000;
+    color: #000000;
+}
+p {
+    font-style: italic;
+    font-size: 20px;
+}
+a{
+    color: white;
+}
+article{
+    float: left;
+    text-align: justify-all;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: 95%;
+    padding: 1em 1em 1em 1.5em;
+    background-color: #ffffff;
+}
+img{
+    width: 55%;
+}

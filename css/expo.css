@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+article {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #d6d1d1;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+text-align: start;
+text-align: end;
+text-align: left;
+text-align: right;
+text-align: center;
+text-align: justify;
+font-family: Arial, sans-serif;
+}
+
+#contenedor {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    float: left;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin: 0;
+    line-height: 148px;
+}
+
+/* Navigation Menu */
+#menu {
+    margin: 20px 0;
+    padding: 0;
+}
+
+#menu ul {
+    list-style-type: none;
+    background-color: #444;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+#menu ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background-color: #555;
+}
+
+/* Main Content */
+#contenido {
+
+text-align: start;
+text-align: end;
+text-align: left;
+text-align: right;
+text-align: center;
+text-align: justify;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contenido h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+article {
+    float: left;
+    text-align: justify-all;
+    font-size: 25px;
+    color: black;
+    height: auto;
+    width: 60%;
+    padding: 1em 1em 1em 1.5em;
+}
+/* Aside (Images) */
+aside {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+}
+    
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 15px;
+}
+
+aside ul li img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header img {
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+        line-height: normal;
+    }
+
+    #menu ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    aside {
+        width: 100%;
+        float: none;
+    }
